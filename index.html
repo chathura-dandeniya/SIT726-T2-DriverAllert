@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>DriveAlert Pro</title>
+    <style>
+        /* Basic Styling */
+        body, html {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        h1, h2, h3 {
+            margin-top: 0;
+            margin-bottom: 16px;
+        }
+        /* Navigation */
+        nav {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 12px;
+        }
+        nav a {
+            margin: 0 20px;
+            color: white;
+            text-decoration: none;
+        }
+        /* Header & Hero */
+        header, .hero {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 50px;
+        }
+        .hero {
+            background-image: url('/image/hero.jpeg');
+            /* background-size: cover; */
+            /* background-size: 100% 100%; */
+            /* background-size: 100% auto; */
+            /* background-size: contain;
+            background-repeat: no-repeat; */
+
+            height: 800px;
+        }
+        /* Sections */
+        section {
+            background-color: #f9f9f9;
+            padding: 40px;
+            text-align: center;
+        }
+        section:nth-child(even) {
+            background-color: #f1f1f1;
+        }
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        /* CTA Button */
+        .cta-button {
+            background-color: #007bff;
+            color: white;
+            padding: 16px 32px;
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 700;
+        }
+        /* Contact Form */
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            margin-bottom: 20px;
+            padding: 12px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        /* Animation */
+        .animated {
+            animation: fadeInUp 1.5s ease;
+        }
+        @keyframes fadeInUp {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        /* Icons */
+        .icon {
+            font-size: 24px;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <a href="#hero">Home</a>
+        <a href="#problem">Problem</a>
+        <a href="#solution">Solution</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- Header -->
+    <header id="hero">
+        <h1>DriveAlert Pro</h1>
+        <p>Making Roads Safer, One Drive at a Time</p>
+        <a href="#" class="cta-button">Learn More</a>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero animated">
+        <h2>Stay Alert, Drive Safely</h2>
+        <p>Our cutting-edge technology ensures you never compromise safety due to fatigue.</p>
+        <a href="#" class="cta-button">Get Started</a>
+    </section>
+
+    <!-- Problem Section -->
+    <section id="problem" class="animated">
+        <h2>The Problem</h2>
+        <p>Did you know that drowsy driving is responsible for thousands of accidents every year?</p>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="animated">
+        <h2>The Solution</h2>
+        <p>Introducing DriveAlert Pro, the camera system designed to detect signs of drowsiness and alert you immediately.</p>
+        <ul>
+            <li><span class="icon">🔍</span> Real-time facial expression analysis</li>
+            <li><span class="icon">👁️</span> Eye movement tracking</li>
+            <li><span class="icon">🔔</span> Instant alerts</li>
+        </ul>
+        <a href="#" class="cta-button">Order Now</a>
+    </section>
+
+    <!-- Experience the Difference / Benefits Section -->
+    <section class="animated">
+        <h2>Experience the Difference</h2>
+        <p>Discover how DriveAlert Pro can transform your driving experience:</p>
+        <ul>
+            <li>Stay alert during long drives, reducing the risk of accidents.</li>
+            <li>Enjoy peace of mind, knowing our system is watching over you.</li>
+            <!-- Add more benefits as needed -->
+        </ul>
+    </section>
+
+    <section class="animated">
+        <h2>What Our Customers Are Saying</h2>
+        <blockquote>"This camera system saved me from a potential accident. Highly recommended!"</blockquote>
+        <blockquote>"I feel much safer knowing DriveAlert Pro is watching over me."</blockquote>
+        <!-- Add more testimonials as needed -->
+    </section>
+
+    <!-- Other Sections ... -->
+
+    <!-- Footer -->
+    <footer>
+        <p>Privacy Policy | Terms and Conditions | Contact Us</p>
+    </footer>
+</body>
+</html>
